@@ -70,8 +70,8 @@ stretching.addEventListener("click",()=>{
 const arrow = document.querySelector('#arrow');
 
 function bmiCalc() {
-    let height = parseFloat(document.getElementById("cm").value); // x değerini sayıya dönüştür
-    let weight = parseFloat(document.getElementById("kg").value); // y değerini sayıya dönüştür
+    let height = parseFloat(document.getElementById("cm").value); 
+    let weight = parseFloat(document.getElementById("kg").value); 
    
     const bmiText = document.querySelector("#bmiText");
     let bmi = weight / ((height / 100) ** 2);
@@ -83,7 +83,7 @@ function bmiCalc() {
       if (bmi <= 0) {
           leftValue = '8%';
       } else if (bmi > 0 && bmi <= 18.5) {
-        var underWeight = 8 + (bmi - 0) * ((24 - 8) / (18.5 - 0)); // Lineer bir aralık hesabı
+        var underWeight = 8 + (bmi - 0) * ((24 - 8) / (18.5 - 0)); 
         leftValue = underWeight + '%';
       } else if (bmi > 18.5 && bmi <=24.9) {
         var normal = 24 + (bmi - 18.5) * (15 / (24.9 - 18.5)); 
