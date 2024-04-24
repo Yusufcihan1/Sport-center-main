@@ -162,10 +162,10 @@
           <div class="container mt-4">
             <div class="row">
               <div class="col-12 col-sm-6 mt-2">
-                <input id="cm" oninput="bmiCalc()" type="number" placeholder="Your Height"> cm
+                <input id="cm" oninput="calculator()" type="number" placeholder="Your Height"> cm
               </div>
               <div class="col-12 col-sm-6 mt-2">
-                <input id="kg" oninput="bmiCalc()" type="number" placeholder="Your Weight"> kg
+                <input id="kg" oninput="calculator()" type="number" placeholder="Your Weight"> kg
               </div>
             </div>
           </div>
@@ -411,6 +411,48 @@
           </div>
         </div>
       </section>
+      <script>
+        // BMI Calculator
+      const arrow = document.querySelector('#arrow');
+ 
+      function calculator() {
+      const height = parseFloat(document.getElementById("cm").value); 
+      const weight = parseFloat(document.getElementById("kg").value);
+    
+     const bmiText = document.querySelector("#bmiText");
+     let bmi = weight / ((height / 100) ** 2);
+     bmiText.innerHTML = "Your BMI = " + bmi.toFixed(2) ;
+     if (!isNaN(bmi) && bmi >= 0) {
+       
+       
+       var leftValue;
+       if (bmi <= 0) {
+           leftValue = '8%';
+       } else if (bmi > 0 && bmi <= 18.5) {
+         var underWeight = 8 + (bmi - 0) * ((24 - 8) / (18.5 - 0)); 
+         leftValue = underWeight + '%';
+       } else if (bmi > 18.5 && bmi <=24.9) {
+         var normal = 24 + (bmi - 18.5) * (15 / (24.9 - 18.5)); 
+         leftValue = normal + '%';
+       }
+       else if (bmi > 24.9 && bmi <=29.9) {
+         var overWeight =39 + (bmi - 24.9) * ((55 - 39) / (29.9 - 24.9)); 
+         leftValue = overWeight + '%';
+       }else if (bmi > 29.9 && bmi <=34.9) {
+         var obese =55 + (bmi - 29.9) * ((71 - 55) / (34.9 - 29.9));
+         leftValue = obese + '%';
+       }
+       else if (bmi > 35 && bmi <=53.5) {
+         var extraObese =71 + (bmi - 34.9) * ((84 - 71) / (53.5 - 34.9)); 
+         leftValue = extraObese + '%';
+       }
+ 
+       
+       arrow.style.left = leftValue;
+   }
+     
+ }
+      </script>
     <script type="module" src="/app.js"></script>
   </body>
 </html>

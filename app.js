@@ -9,7 +9,7 @@ navbarToggler.addEventListener("click", function () {
 var nav = document.querySelector('nav');
 
       window.addEventListener('scroll', function () {
-        if (window.pageYOffset > 70) {
+        if (window.scrollY > 70) {
           nav.style.backgroundColor = 'rgb(50, 85, 147)';
         } else {
           nav.style.backgroundColor = ''; 
@@ -68,10 +68,10 @@ stretching.addEventListener("click",()=>{
 
 // BMI Calculator
 const arrow = document.querySelector('#arrow');
-
-function bmiCalc() {
-    let height = parseFloat(document.getElementById("cm").value); 
-    let weight = parseFloat(document.getElementById("kg").value); 
+ 
+function calculator() {
+  const height = parseFloat(document.getElementById("cm").value); 
+  const weight = parseFloat(document.getElementById("kg").value);
    
     const bmiText = document.querySelector("#bmiText");
     let bmi = weight / ((height / 100) ** 2);
