@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sport Center</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+      .banner-image {
+        background-image: url('assets/hero-man.jpg');
+        background-size: cover;
+      };
+      .mainBlue{
+        
+        background-color:rgb(50, 85, 147);
+      };
+      .mainOrange{
+        font-weight: bold;
+        color: rgb(243, 156, 17) ;
+      };
+    </style>
+  </head>
+  <body>
+    <!-- Navbar  -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-2 ">
+      <div class="container">
+        <img src="assets/logo.png" alt="">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item navbar-itm">
+              <a class="nav-link  text-white font-weight-bold" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#classes" >Classes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#trainerss">Trainers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#review">Review</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#contact">Contact</a>
+            </li>
+            <li >
+              <button class="joinus btn" style="background-color: rgb(238, 159, 10);color: white;font-weight: bold;" >JOIN US</button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </nav>
+    <!-- Banner Image  -->
+    <div class="banner-image w-140 vh-140 d-flex justify-content-center align-items-center" id="home">
+      <div class="container text-white mt-5" >
+          <div  style="margin-top: 100px;">
+              <p class="powerfull">POWERFULL</p>
+              <h1 style="font-size: 72px; font-weight: bold;">Group <br> Practice <br>With Trainer</h1>
+              <p style="font-weight: bold; background-color: rgba(0, 0, 0, 0.5); ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aliquid repellat consequuntur ducimus obcaecati eveniet quidem fuga, a perspiciatis iure dolore vero hic, ipsum, facere inventore reiciendis omnis odit cumque.</p>
+              <div class="container">
+                  <div class="row">
+                    <div class="col-12 col-sm-6">
+                          <button class="signBtn  mt-2 "  >Sign Up</button>
+                          <button class="detBtn  text-white mt-3 mb-5 border border-white" >Details</button>
+                        </div>                      
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    <!-- Main Content-1 Area Boxes-->
+    <div class="d-grid" style="background-color: rgb(241, 248, 255);">
+      <div class="container mb-5">
+        <div class="row mt-5 d-flex justify-content-center gap-5" >
+          <div class="col-12 col-sm-3 text-center bg-white mt-3 " style="width: 14rem; height: 8rem; padding: 15px;" >
+            <h2 class="mt-2" style="color: rgb(50, 85, 147); font-weight: bold; font-size: 28px;">305</h2>
+            <p class="mt-3" style="color: black; font-weight: bold; font-size: 24px;">Course</p>
+          </div>
+          <div class="col-12 col-sm-3 text-center bg-white mt-3" style="width: 14rem; height: 8rem;padding: 15px;">
+            <h2 class="mt-2" style="color: rgb(50, 85, 147); font-weight: bold;font-size: 28px;">405</h2>
+            <p class="mt-3" style="color: black; font-weight: bold; font-size: 24px;">Work Out</p>
+          </div>
+          <div class="col-12 col-sm-3 text-center bg-white mt-3" style="width: 14rem;height: 8rem;padding: 15px;">
+            <h2 class="mt-2" style="color: rgb(50, 85, 147); font-weight: bold;font-size: 28px;">305</h2>
+            <p class="mt-3" style="color: black; font-weight: bold; font-size: 24px;">Working Hour</p>
+          </div>
+          <div class="col-12 col-sm-3 text-center bg-white mt-3" style="width: 14rem;height: 8rem;padding: 15px;">
+            <h2 class="mt-2" style="color: rgb(50, 85, 147); font-weight: bold;font-size: 28px;">705</h2>
+            <p class="mt-3" style="color: black; font-weight: bold; font-size: 24px;">Happy Client</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Main Content-2 Area Our Classes-->
+    <section id="classes" style="background-image: linear-gradient(70deg,hsl(0deg 0% 100%) 1%,
+    hsl(344deg 0% 99%) 48%,
+    hsl(344deg 0% 99%) 50%,
+    hsl(344deg 0% 98%) 51%,
+    hsl(344deg 0% 97%) 51%,
+    hsl(344deg 0% 97%) 49%,
+    hsl(344deg 0% 96%) 49%,
+    hsl(344deg 0% 95%) 5%,
+    hsl(344deg 0% 95%) 57%,
+    hsl(0deg 0% 94%) 99%);" >
+      <div class="d-flex flex-column justify-content-center text-center ">
+        <h3 style="font-weight: bold; color: rgb(50, 85, 147); font-size: 36px;" class="mt-5">OUR CLASSES</h3>
+        <div  style="border: 3px solid rgb(243, 156, 17); border-radius: 10px; width: 20%; margin: auto;"></div>
+        <p class="mt-5"  style="font-weight: bold; color: rgb(129, 129, 129);margin-right: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id accusamus laborum sit eveniet! Placeat quos </p>
+        </div>
+        <div class="container">
+          <div class="row mt-5" >
+            <div class="col-6 col-sm-3 mt-4" >
+          <button id="yoga" class="btnLight   " >Yoga</button>
+          </div>
+          <div class="col-6 col-sm-3 mt-4">
+            <button id="group" class="btnLight " >Group</button>
+            </div>
+            <div  class="col-6 col-sm-3 mt-4">
+              <button id="solo" class="btnLight " >Solo</button>
+              </div>
+              <div  class="col-6 col-sm-3 mt-4">
+                <button id="stretching" class="btnLight">Stretching</button>
+                </div>
+          </div>
+        </div>
+        <article class="container" style="margin-top: 6rem;">
+          <div class="ourclasses row">
+            <div class="col-12 col-sm-6">
+              <h2 id="firstTitle" style="font-weight: bold; color:rgb(73, 73, 73);">Why are your Yoga?</h2>
+              <p id="firstText" style="font-weight: bold; color:rgb(73, 73, 73);" class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas recusandae neque ratione beatae minus, tempora magni minima autem culpa cumque, magnam eaque maiores iure aliquid sed totam vel veritatis veniam!</p>
+              <h2 id="secondTitle" style="font-weight: bold; color:rgb(73, 73, 73);" class="mt-4">When comes Yoga Your Time</h2>
+              <p id="secondText" style="font-weight: bold; color:rgb(73, 73, 73);" class="mt-4" >Saturday-Sunday: 8:00am - 10:00am <br>
+              Monday-Tuesday: 10:00am - 12:00pm <br>
+            Wednesday-Friday: 3:00pm - 8:00pm</p>
+            </div>
+            <div class="col-12 col-sm-6">
+              <img id="imgChange" src="./assets/yoga.jpg" class="w-100 mt-4 mb-4"  alt="">
+            </div>
+          </div>
+        </article>
+    </section>
+    <!-- Main Content-3 Area BMI Calculator-->
+    <section class="container mt-5">
+      <div class="row ">
+        <div class="bmiCalc col-12 col-sm-6 ">
+          <h1 style="color:rgb(53, 85, 146); font-weight: bold; font-size: 48px;">BMI Calculator</h1>
+          <p style="color: rgb(129, 129, 129);font-weight: bold;" class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur, maxime corporis, odio veritatis, omnis suscipit dignissimos nisi iste odit eligendi libero! A voluptatibus unde, reiciendis quis velit magnam quia.</p>
+          <p style="color: rgb(129, 129, 129);font-weight: bold;" class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae libero dolorum, nihil natus magni nemo nisi beatae aliquid. Optio et odit, nemo vitae eum fuga sunt. Voluptate cumque quis nulla?</p>
+          <div class="container mt-4">
+            <div class="row">
+              <div class="col-12 col-sm-6 mt-2">
+                <input id="cm" oninput="bmiCalc()" type="number" placeholder="Your Height"> cm
+              </div>
+              <div class="col-12 col-sm-6 mt-2">
+                <input id="kg" oninput="bmiCalc()" type="number" placeholder="Your Weight"> kg
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bmiTart col-12 col-sm-6 mt-5">
+          <p id="bmiText" class="text-center" style="font-weight: bold; font-size: 18px;">Your BMI</p>
+          <img src="./assets/bmi-index.jpg" class="w-100 " alt="">
+          <div id="arrow" class="arrow"></div>
+        </div>
+      </div>
+    </section>
+     <!-- Main Content-4 Area Trainers -->
+    <section class="mainT d-grid mt-5"   >
+      <article class="container d-flex flex-column justify-content-center text-center ">
+        <h3 style="font-weight: bold; color: rgb(50, 85, 147); font-size: 36px;" id="trainerss" class="mt-5">OUR BEST TRAINERS</h3>
+        <div  style="border: 3px solid rgb(243, 156, 17); border-radius: 10px; width: 20%; margin: auto;"></div>
+        <p class="mt-5"  style="font-weight: bold; color: rgb(129, 129, 129); ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id accusamus laborum sit eveniet! Placeat quos </p>
+      </article>
+      <div class="container  mt-4">
+        <div class="row text-center">
+          <div class="trainer col-12 col-sm-4 mt-5 ">
+            <img src="./assets/trainer1.jpg" alt="trainer-1" class="trainer-1 w-75 rounded" style="border: 2px solid rgb(243, 156, 17);">
+            <div class="after "></div>
+            <div class="before1">
+              <h3 class="mt-2">Marie Curie</h3>
+              <p>Zumba Trainer</p>
+            </div>
+          </div>
+          <div class="trainer1 col-12 col-sm-4 mt-5">
+            <img src="./assets/trainer2.jpg" alt="trainer-2" class="trainer-2 w-75 rounded" style="border: 2px solid rgb(243, 156, 17);">
+            <div class="after1"></div>
+            <div class="before2">
+              <h3 class="mt-2">Albert Einstein</h3>
+              <p>Body Builder</p>
+            </div>
+          </div>
+          <div class="trainer2 col-12 col-sm-4 mt-5">
+            <img src="./assets/trainer3.jpg" alt="trainer-3" class="trainer-3 w-75 rounded" style="border: 2px solid rgb(243, 156, 17);">
+            <div class="after2"></div>
+            <div class="before3">
+              <h3 class="mt-2">John Doe</h3>
+              <p>Cardio Trainer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+    </section>
+    <!-- Main Content-5 Area Purchase From Us -->
+    <section>
+    <div class="d-flex flex-column justify-content-center text-center ">
+      <h3 style="font-weight: bold; color: rgb(50, 85, 147); font-size: 36px;" class="mt-5" >PURCHASE FROM US</h3>
+      <div  style="border: 3px solid rgb(243, 156, 17); border-radius: 10px; width: 20%; margin: auto;"></div>
+      <p class="mt-5"  style="font-weight: bold; color: rgb(129, 129, 129);margin-right: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id accusamus laborum sit eveniet! Placeat quos </p>
+      </div>
+      <div class="container mx-auto text-center mt-4  ">
+        <div class="row d-flex flex-wrap ">
+          <div class="satir-1 col-12 col-sm-3 mt-4">
+            <div class="card card1 mt-4"  >
+              <img class="img1 card-img-top" src="./assets/purchase1.jpg" alt="Card image cap">
+              <div class="effect1"></div>
+              <div class="card-body">
+                <h5 class="card-title">Kettlebell / 5kg</h5>
+                <p class="card-text"><span style="text-decoration:line-through;">89.99$</span>/ 59.99$</p>
+                <hr>
+                <div class="cart" style="display: flex; border: 1px solid;" >
+                  <span class="material-symbols-outlined" style="color: white; ">
+                    shopping_cart
+                    </span>
+                  <a href="#" class="addto" style="font-weight: bold; color: white; text-decoration: none; align-items: center; justify-content: center; margin-left: 70px; "> Add To Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="satir-1 col-12 col-sm-3 mt-4">
+            <div class="card card1 mt-4"  >
+              <img class="img1 card-img-top" src="./assets/purchase2.jpg" alt="Card image cap">
+              <div class="effect1"></div>
+              <div class="card-body">
+                <h5 class="card-title">Treadmill</h5>
+                <p class="card-text"><span style="text-decoration:line-through;">899.99$</span>/ 599.99$</p>
+                <hr>
+                <div class="cart" style="display: flex; border: 1px solid;" >
+                  <span class="material-symbols-outlined" style="color: white; ">
+                    shopping_cart
+                    </span>
+                  <a href="#" class="addto" style="font-weight: bold; color: white; text-decoration: none; align-items: center; justify-content: center; margin-left: 70px; "> Add To Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="satir-1 col-12 col-sm-3 mt-4">
+            <div class="card card1 mt-4 ">
+              <img class="img1 card-img-top" src="./assets/purchase3.jpg" alt="Card image cap">
+              <div class="effect1"></div>
+              <div class="card-body">
+                <h5 class="card-title">Adjustable Bumbbell</h5>
+                <p class="card-text"><span style="text-decoration:line-through;">89.99$</span>/ 59.99$</p>
+                <hr>
+                <div class="cart" style="display: flex; border: 1px solid;" >
+                  <span class="material-symbols-outlined" style="color: white; ">
+                    shopping_cart
+                    </span>
+                  <a href="#" class="addto" style="font-weight: bold; color: white; text-decoration: none; align-items: center; justify-content: center; margin-left: 70px; "> Add To Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="satir-1 col-12 col-sm-3 mt-4">
+            <div class="card card1 mt-4 ">
+              <img class="img1 card-img-top" src="./assets/purchase4.jpg" alt="Card image cap">
+              <div class="effect1"></div>
+              <div class="card-body">
+                <h5 class="card-title">Kettlebell / 3kg</h5>
+                <p class="card-text"><span style="text-decoration:line-through;">89.99$</span>/ 59.99$</p>
+                <hr>
+                <div class="cart" style="display: flex; border: 1px solid;" >
+                  <span class="material-symbols-outlined" style="color: white; ">
+                    shopping_cart
+                    </span>
+                  <a href="#" class="addto" style="font-weight: bold; color: white; text-decoration: none; align-items: center; justify-content: center; margin-left: 70px; "> Add To Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!-- Main Content-6 Area Review Client -->
+    <section class="mt-5" style="background-color: rgb(241, 248, 255);" id="review">
+      <div class="d-flex flex-column justify-content-center text-center ">
+        <h3 style="font-weight: bold; color: rgb(50, 85, 147); font-size: 36px;" class="mt-5" >REVIEW CLIENT</h3>
+        <div  style="border: 3px solid rgb(243, 156, 17); border-radius: 10px; width: 20%; margin: auto;"></div>
+        <p class="mt-5"  style="font-weight: bold; color: rgb(129, 129, 129);margin-right: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id accusamus laborum sit eveniet! Placeat quos </p>
+        </div>
+        <div class="container">
+          <div class="reviewCli row ">
+            <div class="col-12 col-sm-6" style="margin-top: 60px; margin-bottom: 60px;">
+              <div class="circle1 d-flex ">
+                <img class="rounded-circle" src="./assets/client1.jpg" alt="">
+                <div  style="margin-left: 20px;">
+                  <h4>Diet Expert</h4>
+                  <p>CFO</p>
+                </div>
+              </div>
+              <div class="flagging1 mt-4" style="background-color: rgb(50, 85, 147); color: white;  padding:8px; opacity: 90%; position: relative; z-index: 1;">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt optio non distinctio perspiciatis ullam temporibus, quaerat dolorem dolores magnam cupiditate! Provident eos animi expedita optio excepturi obcaecati quae culpa possimus!
+                  corrupti fuga rerum.</p>
+                  <div class="flag1"></div>
+                  <div class="flag2"></div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 " style="margin-top: 60px; margin-bottom: 60px;">
+              <div class="circle2 d-flex">
+                <img class="rounded-circle" src="./assets/client2.jpg" alt="">
+                <div class="circle2" style="margin-left: 20px;">
+                  <h4>Cardio Trainer</h4>
+                  <p>CEO</p>
+                </div>
+              </div>
+              <div class="flagging2 mt-4 mb-5" style="background-color: rgb(50, 85, 147); color: white;  padding:8px; opacity: 90%; position: relative; z-index: 1;">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt optio non distinctio perspiciatis ullam temporibus, quaerat dolorem dolores magnam cupiditate! Provident eos animi expedita optio excepturi obcaecati quae culpa possimus!
+                  corrupti fuga rerum.</p>
+                  <div class="flag1"></div>
+                  <div class="flag2"></div>
+              </div>
+            </div>
+    </section>
+      <!-- Main Content-7 Area Contact Us -->
+      <section>
+        <div class="d-flex flex-column justify-content-center text-center" id="contact">
+          <h3 style="font-weight: bold; color: rgb(50, 85, 147); font-size: 36px;" class="mt-5" >CONTACT US</h3>
+          <div  style="border: 3px solid rgb(243, 156, 17); border-radius: 10px; width: 20%; margin: auto;"></div>
+          <p class="mt-5"  style="font-weight: bold; color: rgb(129, 129, 129);margin-right: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id accusamus laborum sit eveniet! Placeat quos </p>
+          </div>
+          <div class="container mt-4">
+            <div class="appointment  row"> 
+              <div class="col-12 col-sm-6">
+                <div class=" mobnum d-flex" style="font-weight: bold; color: rgb(85, 85, 85);">
+                  <div>
+                    <h5>Mobile Number</h5>
+                    <p>+135 773 321 442</p>
+                  </div>
+                  <div style="margin-left: 40px;">
+                    <h5>Email Address</h5>
+                    <p>demo@demo.com</p>
+                  </div>
+                </div>
+                <div>
+                  <h4 class="mt-4" style="color: rgb(73, 73, 73);">Make An Appointment</h4>
+                  <div class="form-group mt-4">
+                    <input type="email" class="form-control" style="background-color: rgb(241, 248, 255);" id="exampleFormControlInput1" placeholder="Your Name">
+                  </div>
+                  <div class="form-group mt-4">
+                    <input type="email" class="form-control" style="background-color: rgb(241, 248, 255);" id="exampleFormControlInput1" placeholder="Your Email">
+                  </div>
+                  <div class="form-group mt-4">
+                    <textarea class="form-control" style="background-color: rgb(241, 248, 255);" id="exampleFormControlTextarea1" placeholder="Your Message" rows="3"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6">
+                <div class="w-75 mb-5">
+                  <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d96337.65960846089!2d28.704964062579137!3d41.01318085989802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x14caa40b77428733%3A0xa09994fe5ca7ff95!2zRmV2emkgw4dha21haywgS2lwdGHFnyBFdmxlcmkgTm86MTEgRCBCbG9rIEQgMi0xLzItMiwgMzQyOTAgS8O8w6fDvGvDp2VrbWVjZS_EsHN0YW5idWw!3m2!1d41.013210199999996!2d28.7873649!5e0!3m2!1str!2str!4v1713913257365!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <!-- Main Content-8 Footer -->
+      <section style="background-color:#355592;">
+        <div class="container" style="color: white;">
+          <img src="./assets/logo.png" alt="">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto et asperiores saepe mollitia hic! Voluptate similique accusamus voluptas officiis! Nisi optio, illum iure beatae eius deserunt in minima dicta nihil.</p>
+          <div class="container">
+            <div class="row d-flex ">
+              <div class="inf1 col-6 ">
+                <h5 style="font-weight: bold;">Information</h5>
+                <ul>
+                  <li class="d-flex flex-column gap-3">
+                    <a style="text-decoration: none; color: white; " class="mt-3" href="">About Us</a>
+                    <a style="text-decoration: none; color: white; " href="">Classes</a>
+                    <a style="text-decoration: none; color: white; " href="">Blog</a>
+                    <a style="text-decoration: none; color: white; " href="">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="inf2 col-6">
+                <div >
+                <h5 style="font-weight: bold; ">Helpful Links</h5>
+                <ul>
+                  <li class="d-flex flex-column gap-3">
+                    <a style="text-decoration: none; color: white; " class="mt-3" href="">Services</a>
+                    <a style="text-decoration: none; color: white; " href="">Supports</a>
+                    <a style="text-decoration: none; color: white; " href="">Terms & Conditions</a>
+                    <a style="text-decoration: none; color: white; " href="">Privacy Policy</a>
+                  </li>
+                </ul>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
