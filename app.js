@@ -36,7 +36,7 @@ yoga.addEventListener("click",()=>{
   Monday-Tuesday: 10:00am - 12:00pm <br>
   Wednesday-Friday: 3:00pm - 8:00pm`
   imgChange.src= "./assets/yoga.jpg"
-});
+})
 group.addEventListener("click",()=>{
   firstTitle.textContent = "Why are your group?",
   secondTitle.textContent = "When comes Group Your Time?",
@@ -54,7 +54,7 @@ solo.addEventListener("click",()=>{
   Monday-Tuesday: 11:00am - 13:00pm <br>
   Wednesday-Friday: 4:00pm - 7:00pm`
   imgChange.src= "./assets/solo.jpg"
-});
+})
 stretching.addEventListener("click",()=>{
   firstTitle.textContent = "Why are your stretching?",
   secondTitle.textContent = "When comes Stretching Your Time?",
